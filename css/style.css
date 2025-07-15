@@ -1,0 +1,16 @@
+/* MacBook Pro */
+.macbook-ipad-container .macbook {
+  background-image: url(../images/home/macbook-pro.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-color: #fafafa;
+}
+
+/* new iPad */
+.macbook-ipad-container .ipad {
+  background-image: url(../images/home/new-ipad.jpg);
+  background-position: center;
+  /* background-color: black; */
+  height: 600px;
+}
