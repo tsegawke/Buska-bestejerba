@@ -1,0 +1,9 @@
+/* part four */
+/* left side */
+.bg4 {
+  background-image: url(../img/home/watch-series-5.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
