@@ -1,3 +1,4 @@
+
 /* General Styling*/
 body {
   font-family: "Montserrat", sans-serif;
@@ -84,3 +85,21 @@ img {
     margin-top: 10px;
   }
 }
+
+/* part four left side by yonas*/
+.bg4 {
+  background-image: url(../img/home/watch-series-5.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* part four right side by yonas*/
+.bgr4 {
+  background-image: url(../img/home/apple-card.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
