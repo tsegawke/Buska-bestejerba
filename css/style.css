@@ -43,6 +43,35 @@ img {
   border-bottom: 1px solid #4b4b4b;
 }
 
+/* Learn More and Buy Links */
+.links a:hover {
+  color: black;
+  opacity: 0.8;
+}
+/* iPhone 11 Pro */
+.eleven-pro {
+  background-image: url(../img/home/iphone11-pro-bg.jpg);
+  height: 580px;
+  background-position: center;
+}
+
+/* part four left side by yonas*/
+.bg4 {
+  background-image: url(../img/home/watch-series-5.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* part four right side by yonas*/
+.bgr4 {
+  background-image: url(../img/home/apple-card.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*Media Query*/
 /* Footer */
 @media (max-width: 768px) {
@@ -84,22 +113,5 @@ img {
   .footer-links-terms {
     margin-top: 10px;
   }
-}
-
-/* part four left side by yonas*/
-.bg4 {
-  background-image: url(../img/home/watch-series-5.jpg);
-  height: 580px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* part four right side by yonas*/
-.bgr4 {
-  background-image: url(../img/home/apple-card.jpg);
-  height: 580px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
