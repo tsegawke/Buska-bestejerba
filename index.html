@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tsegaw</title>
-</head>
-<body>
-    
-</body>
+<html>
+  <head>
+    <title>Apple Responsive for GitHub collaboration</title>
+
+    <!-- Some meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="title" content="Apple Responsive Bootstrap Replica" />
+    <meta
+      name="description"
+      content="A responsive replica of Apple's website using Bootstrap"
+    />
+    <!-- Link to icons -->
+    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon" />
+    <!-- Link to the Font-Awesome icons and logos-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css"
+    />
+    <!-- Link to Montserrat font from Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Styles -->
+    <!-- Bootstrap Styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+
+  </body>
 </html>
+
 
 <!-- //1.Configuration
     git config --global user.email "tsegawabate@yahoo.com"
@@ -16,9 +44,9 @@
 //2.
     go to location of the folder you want on terminal - after configuring email and username
     - git init
- defaults write com.apple.finder AppleShowAllFiles YES - to show the hidden .git file that shows we have initialized git
+    defaults write com.apple.finder AppleShowAllFiles YES - to show the hidden .git file that shows we have initialized git
     - git status
-    - git add . / add *.txt* / add *.*
+    - git add . 
     - git commit -m "Your comment about the change"
 //3.
     git remote add orgin "location of the repo"
@@ -36,10 +64,11 @@
     git branch -d "branch name" - delete local
     git push origin --delete "branch name" - delete remote
 
+To push your work to GitHub
 
+    git status - to check status
+    git add .  - to add to staging area
+    git commit -m "Your comment about the change" - commit
+    git push origin *your name* - to push to your own branch
 
-
-    
-
-
- git merge --abort - aborts the merge/pull -->
+    git merge --abort - aborts the merge/pull -->
