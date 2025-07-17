@@ -53,7 +53,14 @@ img {
   height: 580px;
   background-position: center;
 }
-
+/* Mule style */
+.bg3 {
+  background-image: url(../img/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* part four left side by yonas*/
 .bg4 {
   background-image: url(../img/home/watch-series-5.jpg);
@@ -70,6 +77,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /* fasika Start */
 
 /* Apple tv and airpods styling */
@@ -116,6 +124,23 @@ img {
 
 /*   Fasika End */
 
+/* MacBook Pro */
+.macbook-ipad-container .macbook {
+  background-image: url(../img/home/macbook-pro.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-color: #fafafa;
+}
+
+
+/* new iPad */
+.macbook-ipad-container .ipad {
+  background-image: url(../img/home/new-ipad.jpg);
+  background-position: center;
+  /* background-color: black; */
+  height: 600px;
+}
 /*Media Query*/
 /* Footer */
 @media (max-width: 768px) {
