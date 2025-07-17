@@ -77,6 +77,53 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* fasika Start */
+
+/* Apple tv and airpods styling */
+.apple-tv-pods .apple-tv {
+  background-image: url(../img/home/apple-tv-background.jpg);
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+}
+.apple-tv {
+  background-position: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.servant {
+  padding: 160px 0 180px;
+}
+.apple-tv-link {
+  color: #0000ed;
+}
+.apple-tv-link a {
+  font-size: 0.9em;
+}
+.apple-tv-link a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+.apple-tv-pods .pods {
+  background-image: url(../img/home/air-pods.jpg);
+  background-size: initial;
+  background-color: #000000;
+  background-position: bottom;
+}
+.pods {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+/*   Fasika End */
+
 /* MacBook Pro */
 .macbook-ipad-container .macbook {
   background-image: url(../img/home/macbook-pro.jpg);
@@ -85,6 +132,7 @@ img {
   height: 600px;
   background-color: #fafafa;
 }
+
 
 /* new iPad */
 .macbook-ipad-container .ipad {
