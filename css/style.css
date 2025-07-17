@@ -53,7 +53,14 @@ img {
   height: 580px;
   background-position: center;
 }
-
+/* Mule style */
+.bg3 {
+  background-image: url(../img/home/iphone11-bg.jpg);
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* part four left side by yonas*/
 .bg4 {
   background-image: url(../img/home/watch-series-5.jpg);
