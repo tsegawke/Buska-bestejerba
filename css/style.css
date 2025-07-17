@@ -44,8 +44,14 @@ img {
 
 /* Learn More and Buy Links */
 .links a:hover {
-  color: black;
-  opacity: 0.8;
+    color: #000000;
+    opacity: 0.8;
+}
+.links ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 200;
+  content: "\f105";
+  padding-left: 10px;
 }
 /* iPhone 11 Pro */
 .eleven-pro {
